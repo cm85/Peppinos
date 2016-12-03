@@ -199,14 +199,14 @@ td.locationHours {
   text-align: center;
   width: 600px;
   height: 4px;
-  background: url("images/news_events/newsbox_top.jpg");
+  background: url(images/news_events/newsbox_top.jpg);
 }
 
 #newsBoxBody {
   text-align: center;
   width: 600px;
   height: 600px;
-  background: url("images/news_events/newsbox_bg.jpg");
+  background: url(images/news_events/newsbox_bg.jpg);
   overflow: auto;
 }
 

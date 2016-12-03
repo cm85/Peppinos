@@ -1,0 +1,14 @@
+User-agent: *
+Disallow: /cgi-local
+Disallow: /etc
+Disallow: /ex
+Disallow: /formmail.old
+Disallow: /js
+Disallow: /movies
+Disallow: /mysqladmin
+Disallow: /oldwebsite
+Disallow: /stats
+Disallow: /varpage
+Disallow: /Peppinos_Header.swf
+
+Sitemap: http://www.peppinosonline.com/sitemap.xml

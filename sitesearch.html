@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Search Swish Index</title>
+</head>
+<body bgcolor="white">
+
+<h3>Search Entry Form</h3>
+<form method="GET" action="/cgi-bin/query.pl">
+
+<!-- want to mimic "swish -f swishindex -w keywords -m maxresults" -->
+
+<input type="hidden" name="swishindex"
+   value="/usr/home/peppin/index.swishe">
+<input type="hidden" name="metaName" value="Keywords">
+<b>Search for the following keywords:</b><br>
+<input name="keywords" size=40 maxlength=512>
+<p>
+ &#160; &#160; <input type=radio name=detail value=yes CHECKED>
+   <b>Verbose report</b>
+     &#160; &#160; <input type=radio name=detail value=no>
+<b>Simple report</b>
+  <p>
+<b>Maximum number of results:</b><br>
+<input name="maxresults" size=5 value=40 maxlength=64>
+<p>
+<b>
+<input type="submit" value="Search"> <input type="reset" value="Reset">
+</b><p>
+__________________________________________<p>
+search example 1: john and doe or jane<br>
+search example 2: john and (doe or jane)<br>
+search example 3: not (john or jane) and doe<br>
+search example 4: j* and doe<br>
+</form>
+
+<a href="http://www.semrush.com/info/history/index.html?domains[]=peppinosonline.com&gtype=0&db=us#plot/line///peppinosonline.com/us/Or"><img src="http://www.semrush.com/archive/graphs.php?domain=peppinosonline.com&db=us&type=0&w=375&h=250&lc=e43011&dc=e43011&l=en" border="0" width="375px" height="250px" /></a>
+
+<div id="sitelock_shield_logo" class="fixed_btm" style="bottom:0;position:fixed;_position:absolute;right:0;"><a href="https://www.sitelock.com/verify.php?site=peppinosonline.com" onclick="window.open('https://www.sitelock.com/verify.php?site=peppinosonline.com','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/peppinosonline.com"></a></div>
+
+
+</body>
+</html>

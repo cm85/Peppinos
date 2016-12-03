@@ -1,37 +1,38 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
   <head>
-  <link rel="stylesheet" type="text/css" href="style.css">  
-  <title></title>    
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <title>Peppino's Catering Party Tray Menu | Corporate Events & Special Occasions</title>
+
   <script type="text/javascript">
-  
+
   window.onload = function()
   {
 	 var val = window.location.toString().substr(window.location.toString().indexOf('=') + 1);
-	 
+
 	 // Set List index to that passed (if valid)
-	 if ( (val == 1) | (val == 2) )	 
+	 if ( (val == 1) | (val == 2) )
 	   menuList.selectedIndex = val;
-	 
+
 	 // Change Image
 	 changemenu(menuList);
   }
 
-  
+
   function changemenu(list)
   {
     // Show "Loading" Div
     menuLoading.style.visibility = "visible";
-    
+
     img_name = "imgMenu";
     img_path = "images/catering_menu/";
-    document[img_name].src = img_path + list.options[list.selectedIndex].value; 
-    
+    document[img_name].src = img_path + list.options[list.selectedIndex].value;
+
     // When Image is Done Loading, Hide "Loading" Div
     document[img_name].onload = function () {
-      menuLoading.style.visibility = "hidden"; 
-    }         
+      menuLoading.style.visibility = "hidden";
+    }
   }
   </script>
 
@@ -41,32 +42,52 @@
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
- 
+
   ga('create', 'UA-48196301-1', 'peppinosonline.com');
   ga('send', 'pageview');
- 
+
 </script>
-  
+
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="https://ws.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript" src="https://ss.sharethis.com/loader.js"></script>
+
+<meta property="og:image" content="http://www.peppinosonline.com/images/thumbnail_image.png" />
+<meta property="og:title" content="Peppino's Catering | Orange County's Best Since 1984" />
+<meta property="og:description" content="When You Want It Right The First Time. Peppino's Catering for Corporate Events, Private Parties, Weddings and More! />
+
   </head>
-  <body background="images/catering_menu/bg_menu.jpg"> 
-  
-  <div id="menuControl"> 
+  <body background="images/catering_menu/bg_menu.jpg">
+
+  <div id="menuControl">
     <select onchange="changemenu(this)" id="menuList">
       <option value="0-Front page.jpg" selected="selected">Select Item</option>
       <option value="1-Catering Menu.jpg">Catering Menu</option>
-      <option value="2-Party Trays.jpg">Party Trays</option>      
+      <option value="2-Party Trays.jpg">Party Trays</option>
     </select>
   </div>
-  
+
   <div id="menuLoading">
     Loading...<br>
     <img src="images/loading.gif">
   </div>
-  
+
   <div id="menuImage">
     <img src="images/catering_menu/0-Front page.jpg" border="0" name="imgMenu">
   </div>
 
+<script type="text/javascript">stLight.options({publisher: "4c17ec73-5177-4689-982f-ea69dd36431a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "4c17ec73-5177-4689-982f-ea69dd36431a", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "linkedin", "googleplus", "delicious", "pinterest", "reddit", "sharethis", "email"]}};
+var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+</script>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5625ee4c0fac97c5" async="async"></script>
+
+<div id="sitelock_shield_logo" class="fixed_btm" style="bottom:0;position:fixed;_position:absolute;right:0;"><a href="https://www.sitelock.com/verify.php?site=peppinosonline.com" onclick="window.open('https://www.sitelock.com/verify.php?site=peppinosonline.com','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/peppinosonline.com"></a></div>
+
+<div id="sitelock_shield_logo" class="fixed_btm" style="bottom:0;position:fixed;_position:absolute;right:0;"><a href="https://www.sitelock.com/verify.php?site=peppinosonline.com" onclick="window.open('https://www.sitelock.com/verify.php?site=peppinosonline.com','SiteLock','width=600,height=600,left=160,top=170');return false;" ><img alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/peppinosonline.com"></a></div>
 
   </body>
 </html>

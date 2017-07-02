@@ -1,5 +1,5 @@
 <p align="center">
-  <b>© Peppino's Menu's</b><br>
+  <b><a href="http://cm85.github.io/Peppinos/">© Peppino's Website</a></b><br>
   <a href="https://github.com/cm85/Peppinos/wiki/Peppino's-Lunch-Menu">Lunch Menu</a> |
   <a href="https://github.com/cm85/Peppinos/wiki/Peppino's-Catering-Menu">Catering Menu</a> |
   <a href="https://github.com/cm85/Peppinos/wiki/Peppino's-Main-Menu">Main Menu</a>
